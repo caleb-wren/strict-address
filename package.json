@@ -1,0 +1,28 @@
+{
+  "name": "strict-address",
+  "version": "0.1.0",
+  "description": "Strict-by-default parsing and formatting for US postal addresses, with an explicit lenient mode.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "license": "MIT",
+  "author": "caleb-wren",
+  "keywords": [
+    "postal-address",
+    "address-validation",
+    "usps"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
